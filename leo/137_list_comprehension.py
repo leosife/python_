@@ -9,5 +9,4 @@ novos_produtos = [
     if produto['preco'] < 25 else {**produto}
     for produto in produtos
 ]
-novos_produtos.sort
 print(*novos_produtos, sep='\n')

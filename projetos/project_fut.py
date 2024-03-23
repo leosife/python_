@@ -8,6 +8,8 @@ tabela = {'Time A':0,'Time B':0,'Time C':0,'Time D':0}
 Timea = 0
 timeb = 0
 
+r1[0] = 1
+
 def simular_confronto(rodada):
     # Gerando um placar aleatório para o confronto
     c = 0
