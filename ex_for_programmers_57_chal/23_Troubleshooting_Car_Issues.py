@@ -1,5 +1,4 @@
 a = input('Is the car silent when you turn the key?[y/n]: ')[0].lower()
-print(a)
 match a:
     case 'y':
         b = input ('Are the battery terminals corroded?[y/n]: ')[0].lower()
